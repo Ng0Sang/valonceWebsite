@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navigation > a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.navigation > a > img{
+    width: 3vw;
+    height: 3vh;
+}
+.logo > a{
+    font-weight: bold;
+    padding: 5px;
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+.navigation_links > a{
+    align-items: flex-end;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight:600;
+    justify-content: space-between;
+    color: black;
+}
+main{
+    background-image:url(images/nike9.webp);
+    background-size: cover;
+    background-position: center;
+    height: 730px;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-weight: 800;
+    position: absolute;
+    margin-bottom: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+P{
+    text-align: center;
+    font-weight: 800;
+    position: absolute;
+    margin-bottom: 500px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.new_arrivals{
+    padding: 15px;
+    margin-top: 1%;
+}
+.new_arrivals > h3{
+    text-align: center;
+    padding: 20px;
+}
+#gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    padding: .1rem;
+    }
+.item > img{  
+    width: 100%;
+ }
+ .box{
+    width: 100%;
+ }
+h3{
+    font-size: 11px;
+    margin-left: 20px;
+}
+.display-section{
+      height: 116vh;
+}
+ #display{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    height: 55vh;
+ }
+.men{
+    text-align: center;
+    background-color: green;
+}
+.men > img{
+    height: 55vh;
+ }
+.ladies{
+    text-align: center;
+    background-color: red;
+}
+.ladies > img{
+    height: 55vh;
+}
+button {
+     height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+ h4{
+    margin-top: 20%;
+    color: white;
+    font-size: 30px;
+}
+.unisex{
+    text-align: center;
+    border: 1px solid white;
+    height: 60vh;
+    margin-top: 4px;
+    background-color: black;
+}
+h5{
+    margin-top: 15%;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+ }
+table {
+    font-family: Arial, Helvetica, sans-serif;    
+    border-collapse: collapse;
+    width: 99vw;
+    font-size: 15px;
+    border:1px solid black ;
+    text-align: center;
+  }
+  
+table > td{
+    text-align: center;
+    padding: 1px;
+  }
+
+ul .unordered{
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    font-size: 1px;
+}
+ul {
+    font-size: 8px;
+    padding-left: 30px;
+    margin-top: 1%;
+    list-style: none;
+    display: block;
+    float: left;
+}
+ul > li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 10px;
+}
+h6 {
+    font-weight: 700;
+    font-size: 15px;
+}
+.unordered {
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: black;
+    font-weight: 600;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    font-size: 10px;
+}
+footer{
+    margin-top: 1%;
+}
+.nav_left{
+    text-align: block;
+    font-size: 10px;
+}
+ @media only screen and (max-width: 500px) {
+    .navigation{
+        display: flex;
+        background-color: chocolate;
+            
+    }
+
+    .logo > a{
+       display: grid;
+       grid-template-columns: auto;
+    }
+    .navigation_links > a{
+        display: grid;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    main{
+        background-image:url(images/nike9.webp);
+        height: 32vh;
+        width: 100%;
+        border: 1px solid white;
+    }
+    .text{
+        text-align: center;
+        margin-top: 20%;
+        
+    }
+    .text> p{
+       font-size: 12px;
+       font-weight: 200;
+    }
+    .text> h1{
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: 5%;
+    }
+    .new_arrivals{
+        padding-right:10%;
+        height: 100%;
+    }
+     .new_arrivals > h3{
+        text-align: center;
+        padding: 20px;
+    }
+    #gallery{
+        margin-left: 4%;
+        width: 100%;
+        display: grid;
+        grid-template-columns:auto auto;
+        gap: 3px;
+     }
+     .item > img{
+         width: 100%;
+     }
+     .box{
+            width: 100%;
+     }
+    h3{
+        font-size: 11px;
+        margin-left: 20px;
+    }
+    .display-section{
+        height: 160%;
+        margin-bottom: 20px;
+        }
+    #display{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 1px;
+        height: 55vh;
+    }
+    .men{
+        text-align: center;
+        width: 100vw;
+        background-color: green;
+    .men > h4{
+        margin-top: 10%;
+        color: white;
+        font-size:17px;
+    }
+    .ladies{
+        text-align: center;
+        width: 100vw;
+    }
+    .ladies > h4{
+        margin-top: 10%;
+        color: white;
+        font-size: 17px;
+    }
+        button {
+        height: 40px;
+        width: 90px;
+        border: none;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .unisex{
+        text-align: center;
+        border: 1px solid white;
+        height: 60vh;
+        width: 100vw;
+        margin-top: 1%;
+        background-color: rgba(0, 0, 0, 0.932);
+    } 
+    .unisex > h5{
+        margin-top: 30%;
+        color: white;
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+    table{
+        font-size: 10px;
+        width: 100%;
+        margin-top: 1%;
+        }      
+    table > td{
+        text-align: center;
+        padding: 1px;
+    }
+     .unordered_section{
+        margin-top: 5%;
+     }
+    .unordered {
+        display: flex;
+        text-align: center;
+            width: 100vw;
+        margin-top: 2%;
+    }
+    .unordered_main{
+        text-align: center;
+        display: grid;
+    }
+    ul > h6{
+        color: black;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    ul {
+        padding-left: 30px;
+        margin-top: 1%;
+        list-style: none;
+        display: inline-block;
+    }
+    ul > li{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 8px;
+    }
+    .nav_left{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+        margin-left: 10%;
+        text-align: center;
+    }
+    .btn{
+        background-color: black;
+        font-weight: 600;
+        width: 100px;
+        height: 30px;
+        border-radius: 3px;
+        color: white;
+        font-size: 10px;
+    }
+    footer{
+        height: 100%;
+        margin-top: 2%;
+        }
+    }}
